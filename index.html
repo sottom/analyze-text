@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<script
+	  src="https://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous"></script>
+	<style>
+		.top-right{
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			border: solid black 2px;
+		display: none;
+		}
+		.flexy {
+			display: flex;
+			flex-direction: column;
+			width: 200px;
+		}
+		.active {
+		background-color: gray;
+		}
+		.inner-div {
+			padding: 0px;
+			padding-left: 5px;
+		}
+	</style>
+</head>
+<body>
+	<textarea id="essay" name="analyze" rows="50" cols="100"></textarea>
+	<!-- <button onclick="saveToJson()">Save</button> -->
+	<div class="flexy top-right"></div>
+  <script src="./js/analyze.js"></script>
+</body>
+</html>
